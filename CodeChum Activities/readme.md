@@ -1,4 +1,4 @@
-![codechum](file:///C:/Users/manni/Documents/codechum.png) 
+![codechum](//assets/codechum.png) 
 
 # **CODECHUM**
 # Here Lies The CodeChum Lab Activities
