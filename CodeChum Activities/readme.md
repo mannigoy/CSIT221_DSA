@@ -10,9 +10,9 @@ School Year 2024-2025 Section F3.
 * ```LA4 - 42/100``` 
 * ```LA5 - 116/150``` 
 * ```LA6 - 173/200```
-* ```Midterm Practical - 220/330```
 * ```LA7 - 173/200```
 * ```LA8 - 119/175```
+* ```Midterm Practical - 220/330```
 
 #### The exams not only consist of coding but a written examination as well. May you find this repository useful on your academic journey. <3
 
