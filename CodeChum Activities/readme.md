@@ -1,4 +1,4 @@
-![codechum](//assets/codechum.png) 
+![codechum](https://github.com/mannigoy/CSIT221_DSA/blob/main/CodeChum%20Activities/assets/codechum.png)
 
 # **CODECHUM**
 # Here Lies The CodeChum Lab Activities
