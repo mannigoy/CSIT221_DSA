@@ -1,0 +1,15 @@
+Hello! My name is Daisy and I work for Philippine Airlines. As our gift for passengers who frequently fly with us, we’ve decided to pick someone who flew with us the most in the last few months or so. In order to do that, we need to be able to identify that one lucky person among all of the other frequent flyers.
+
+ 
+
+Your job would be to create a program that would print out the most frequent number that pops up in the system. Since we only choose that one lucky flyer, if there is more than one most frequent number, print (none) instead.
+
+ 
+
+Assume that the number inputted is within 1 to 99, as we only get to consider among 99 customers.
+
+Sample Output 1
+
+Enter n: 8
+Enter 8 elements: 26 25 54 47 1 26 4 26
+Lucky Winner = 26
