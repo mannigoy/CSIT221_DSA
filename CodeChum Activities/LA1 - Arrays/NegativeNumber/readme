@@ -1,0 +1,1 @@
+Write a program that asks the user to enter 8 integers and stores them in the given array. Check if there are any negative numbers in the array. If there are negative numbers present, it should print "Negative number found", otherwise print "No negative numbers".
