@@ -1,0 +1,11 @@
+Given an array of size n, find the majority element. The majority element is the element that appears more than n/2 times.
+Sample Output 1
+
+Enter the size of the array: 5
+Enter the elements of the array separated by space: 1 2 3 4 5
+No majority element found
+Sample Output 2
+
+Enter the size of the array: 6
+Enter the elements of the array separated by space: 1 2 2 2 2 2
+The majority element is 2
