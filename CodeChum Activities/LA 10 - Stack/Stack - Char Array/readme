@@ -1,0 +1,79 @@
+Using the same implementation of the stack using arrays, change the data types of ArrayStack to be dealt with from integers to chars.
+
+ 
+
+Since the Stack, List, and Array List currently deal with integers as well, change these header files to handle char elements.
+
+ 
+
+When trying to return the top element when one does not exist, return a space instead.
+
+Sample Output 1
+
+Enter op: a j
+Enter op: a a
+Enter op: a y
+Enter op: a v
+Enter op: a i
+Enter op: a n
+Enter op: a c
+Enter op: a e
+Enter op: r
+Removed e
+Enter op: r
+Removed c
+Enter op: r
+Removed n
+Enter op: r
+Removed i
+Enter op: r
+Removed v
+Enter op: x
+Exiting
+Sample Output 2
+
+Enter op: a v
+Enter op: a i
+Enter op: a n
+Enter op: a c
+Enter op: a e
+Enter op: r
+Removed e
+Enter op: t
+Last element: c
+Enter op: s
+Size: 4
+Enter op: t
+Last element: c
+Enter op: r
+Removed c
+Enter op: t
+Last element: n
+Enter op: s
+Size: 3
+Enter op: x
+Exiting
+Sample Output 3
+
+Enter op: a j
+Enter op: a a
+Enter op: a y
+Enter op: ?
+Empty? 0
+Enter op: r
+Removed y
+Enter op: r
+Removed a
+Enter op: r
+Removed j
+Enter op: ?
+Empty? 1
+Enter op: a v
+Enter op: ?
+Empty? 0
+Enter op: r
+Removed v
+Enter op: ?
+Empty? 1
+Enter op: x
+Exiting
