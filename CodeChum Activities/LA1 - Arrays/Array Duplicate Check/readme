@@ -1,0 +1,43 @@
+Write a program that asks the user to enter 10 integers and stores them in the given array. Check if there are any duplicate elements in the array. If there are duplicates, it should print "Duplicate found", otherwise print "No duplicates".
+Sample Output 1
+
+Enter 10 integers:
+1
+2
+3
+4
+5
+6
+1
+7
+8
+9
+Duplicate found
+Sample Output 2
+
+Enter 10 integers:
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+No duplicates
+Sample Output 3
+
+Enter 10 integers:
+11
+22
+33
+44
+55
+55
+66
+77
+88
+99
+Duplicate found
