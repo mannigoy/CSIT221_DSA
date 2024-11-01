@@ -1,0 +1,29 @@
+Given a string containing only parentheses ('(', ')', '{', '}', '[', ']'), write a program to determine if the input string has balanced parentheses. You may only use the stack operations push, pop, top, size, and isEmpty to solve this problem.
+
+ 
+
+There are three reasons why a string is not considered as balanced:
+
+Mismatch. If the closing parenthesis does not match the most recent opening parenthesis, then there is a mismatch and the string is not balanced. One such example is the string "(]" to which the expected closing parenthesis after ( is ), not ].
+Lacks Closing. If the string ends abruptly when the opening parentheses are not closed yet, then the string lacks closing parentheses and the string is not balanced. One such example is the string "([]" to which the opening parenthesis ( has not been paired up to its closing parenthesis ).
+Lacks Opening. If the string encounters a closing parenthesis without an opening parenthesis, then the string lacks opening parentheses and the string is not balanced. One such example is the string "[]}" to which it encounters the parenthesis } but without its prior opening parenthesis {.
+ 
+
+In the main.cpp file, implement the is_balanced_parentheses(string str), given the str as the input string, and return the following values:
+
+Return 0 if the string has balanced parentheses.
+Return 1 if the string has mismatched parentheses.
+Return 2 if the string lacks closing parentheses.
+Return 3 if the string lacks opening parentheses.
+Sample Output 1
+
+Enter a string with parentheses: (())
+The parentheses are balanced!
+Sample Output 2
+
+Enter a string with parentheses: (]
+The parentheses are not balanced due to mismatch!
+Sample Output 3
+
+Enter a string with parentheses: ([]
+The parentheses are not balanced due to missing closing parentheses!
