@@ -1,0 +1,53 @@
+Postfix Expressions
+
+
+Postfix expressions are mathematical expressions derived from expression trees that is obtained using the post-order traversal.
+
+ 
+
+In order to evaluate a postfix expression, we perform the following:
+
+Read the expression one character at a time.
+If the current symbol is an operand (e.g. numerical), push it onto a stack.
+If the current symbol is an operator (+,-,*,/), pop two operands from the stack. Call the operands a and b respectively.
+Evaluate the operation b op a.
+Push the result back onto the stack.
+Repeat the above steps until the end of the expression is reached.
+At the end, the stack should have only one number, which is the result of the entire postfix expression. This will be printed when the user exits the program via the 'x' input.
+ 
+
+In the main.cpp file, the code to handle the numerical inputs and the case of addition has been done. Your task is to complete the other operations namely subtraction (-), multiplication (*), and division (/).
+
+Sample Output 1
+
+Enter: 3
+Enter: 4
+Enter: *
+Enter: 2
+Enter: 5
+Enter: *
+Enter: +
+Enter: x
+Answer is 22
+Sample Output 2
+
+Enter: 9
+Enter: 5
+Enter: +
+Enter: 2
+Enter: *
+Enter: 7
+Enter: /
+Enter: x
+Answer is 4
+Sample Output 3
+
+Enter: 5
+Enter: 2
+Enter: *
+Enter: 6
+Enter: 4
+Enter: +
+Enter: /
+Enter: x
+Answer is 1
