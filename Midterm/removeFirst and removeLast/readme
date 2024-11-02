@@ -1,0 +1,116 @@
+In class, we had a group activity that creates and utilizes the removeNode(node* n) method to remove an item. We have not used it in our removeFirst and removeLast yet.
+
+ 
+
+You are to implement the removeNode method again.
+
+Improve the current implementation of the removeFirst and removeLast to only have a few lines that calls the removeNode method. Note that when the list is empty, you are not to remove anything. You must not use the size to determine if the list is empty, instead use other ways to determine whether the list is empty. When you do use the size, you'll receive deductions for this problem.
+
+Sample Output 1
+
+Op: f 5
+Op: f 4
+Op: l 7
+Op: l 8
+Op: f 1
+Op: f 10
+Op: l 2
+Op: l 3
+Op: p
+Size: 8
+From HEAD: 10->1->4->5->7->8->2->3
+From TAIL: 3<-2<-8<-7<-5<-4<-1<-10
+Op: L
+Op: p
+Size: 7
+From HEAD: 10->1->4->5->7->8->2
+From TAIL: 2<-8<-7<-5<-4<-1<-10
+Op: L
+Op: p
+Size: 6
+From HEAD: 10->1->4->5->7->8
+From TAIL: 8<-7<-5<-4<-1<-10
+Op: L
+Op: p
+Size: 5
+From HEAD: 10->1->4->5->7
+From TAIL: 7<-5<-4<-1<-10
+Op: x
+Exiting
+Sample Output 2
+
+Op: L
+Op: p
+Size: 0
+From HEAD:
+From TAIL:
+Op: f 5
+Op: f 4
+Op: l 7
+Op: p
+Size: 3
+From HEAD: 4->5->7
+From TAIL: 7<-5<-4
+Op: L
+Op: p
+Size: 2
+From HEAD: 4->5
+From TAIL: 5<-4
+Op: L
+Op: p
+Size: 1
+From HEAD: 4
+From TAIL: 4
+Op: L
+Op: p
+Size: 0
+From HEAD:
+From TAIL:
+Op: x
+Exiting
+Sample Output 3
+
+Op: L
+Op: p
+Size: 0
+From HEAD:
+From TAIL:
+Op: f 5
+Op: f 4
+Op: l 7
+Op: p
+Size: 3
+From HEAD: 4->5->7
+From TAIL: 7<-5<-4
+Op: L
+Op: p
+Size: 2
+From HEAD: 4->5
+From TAIL: 5<-4
+Op: L
+Op: p
+Size: 1
+From HEAD: 4
+From TAIL: 4
+Op: L
+Op: p
+Size: 0
+From HEAD:
+From TAIL:
+Op: l 8
+Op: l 9
+Op: f 1
+Op: p
+Size: 3
+From HEAD: 1->8->9
+From TAIL: 9<-8<-1
+Op: L
+Op: L
+Op: L
+Op: L
+Op: p
+Size: 0
+From HEAD:
+From TAIL:
+Op: x
+Exiting
