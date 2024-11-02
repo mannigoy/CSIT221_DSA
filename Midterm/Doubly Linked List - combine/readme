@@ -1,0 +1,115 @@
+Given a basic sentinel-less Doubly Linked List, implement the combine(DoublyLL*) method that will connect the contents of the DoublyLL* parameter to this instance's linked list.
+
+ 
+
+For example, this linked list has 10 <-> 20 <-> 30 <-> 40 and the parameter DoublyLL has 70 <-> 80, this linked list should combine what is in the parameter to its own, resulting to this linked list having 10 <-> 20 <-> 30 <-> 40 <-> 70 <-> 80. The parameter DoublyLL should also be reset to not contain anything and size back to 0.
+
+ 
+
+Note that this operation must be O(1) and you are not to create more nodes as you are only to connect the contents of the list.
+
+Sample Output 1
+
+Operating on list1
+Op: f 30
+Op: f 20
+Op: l 40
+Op: f 10
+Op: p
+Size: 4
+FROM HEAD: 10->20->30->40
+FROM TAIL: 40<-30<-20<-10
+Op: d
+Operating on list2
+Op: l 70
+Op: l 80
+Op: p
+Size: 2
+FROM HEAD: 70->80
+FROM TAIL: 80<-70
+Op: d
+Operating on list1
+Op: c
+Combining on list1
+Op: p
+Size: 6
+FROM HEAD: 10->20->30->40->70->80
+FROM TAIL: 80<-70<-40<-30<-20<-10
+Op: x
+Exiting
+Sample Output 2
+
+Operating on list1
+Op: f 30
+Op: f 20
+Op: l 40
+Op: f 10
+Op: p
+Size: 4
+FROM HEAD: 10->20->30->40
+FROM TAIL: 40<-30<-20<-10
+Op: d
+Operating on list2
+Op: l 70
+Op: l 80
+Op: p
+Size: 2
+FROM HEAD: 70->80
+FROM TAIL: 80<-70
+Op: d
+Operating on list1
+Op: c
+Combining on list1
+Op: p
+Size: 6
+FROM HEAD: 10->20->30->40->70->80
+FROM TAIL: 80<-70<-40<-30<-20<-10
+Op: d
+Operating on list2
+Op: p
+Size: 0
+FROM HEAD:
+FROM TAIL:
+Op: x
+Exiting
+Sample Output 3
+
+Operating on list1
+Op: f 30
+Op: f 20
+Op: l 40
+Op: f 10
+Op: p
+Size: 4
+FROM HEAD: 10->20->30->40
+FROM TAIL: 40<-30<-20<-10
+Op: d
+Operating on list2
+Op: l 70
+Op: l 80
+Op: p
+Size: 2
+FROM HEAD: 70->80
+FROM TAIL: 80<-70
+Op: d
+Operating on list1
+Op: c
+Combining on list1
+Op: p
+Size: 6
+FROM HEAD: 10->20->30->40->70->80
+FROM TAIL: 80<-70<-40<-30<-20<-10
+Op: d
+Operating on list2
+Op: p
+Size: 0
+FROM HEAD:
+FROM TAIL:
+Op: c
+Combining on list2
+Op: p
+Size: 6
+FROM HEAD: 10->20->30->40->70->80
+FROM TAIL: 80<-70<-40<-30<-20<-10
+Op: x
+Exiting
